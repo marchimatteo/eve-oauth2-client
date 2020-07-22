@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/marchimatteo/eve-oauth2-client/issues"
   },
-  "homepage": "https://github.com/marchimatteo/eve-oauth2-client#readme"
+  "homepage": "https://github.com/marchimatteo/eve-oauth2-client#readme",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.8.1",
+    "url-parse": "^1.4.7",
+    "url-safe-base64": "^1.1.1"
+  }
 }
