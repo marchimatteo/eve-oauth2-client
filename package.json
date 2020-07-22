@@ -1,0 +1,19 @@
+{
+  "name": "eve-oauth2-client",
+  "version": "1.0.0",
+  "description": "A client side only library to login using the oAuth2 EVE Online SSO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marchimatteo/eve-oauth2-client.git"
+  },
+  "author": "Matteo Marchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marchimatteo/eve-oauth2-client/issues"
+  },
+  "homepage": "https://github.com/marchimatteo/eve-oauth2-client#readme"
+}
