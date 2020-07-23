@@ -4,8 +4,22 @@
   "description": "A client side only library to login using the oAuth2 EVE Online SSO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest test/"
   },
+  "keywords": [
+    "eve",
+    "online",
+    "eveonline",
+    "eve online",
+    "eve-online",
+    "esi",
+    "login",
+    "eve oauth2 client",
+    "oauth2",
+    "auth",
+    "sso",
+    "client"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marchimatteo/eve-oauth2-client.git"
@@ -17,10 +31,21 @@
   },
   "homepage": "https://github.com/marchimatteo/eve-oauth2-client#readme",
   "dependencies": {
+    "cross-fetch": "^3.0.5",
     "crypto-js": "^4.0.0",
     "jsonwebtoken": "^8.5.1",
     "jwks-rsa": "^1.8.1",
     "url-parse": "^1.4.7",
     "url-safe-base64": "^1.1.1"
+  },
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./test/setupJest.js"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "jest-fetch-mock": "^3.0.3"
   }
 }
