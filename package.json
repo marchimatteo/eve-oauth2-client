@@ -4,7 +4,7 @@
   "description": "A client side only library to login using the oAuth2 EVE Online SSO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest test/"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,12 @@
     "jwks-rsa": "^1.8.1",
     "url-parse": "^1.4.7",
     "url-safe-base64": "^1.1.1"
+  },
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./test/setupJest.js"
+    ]
   },
   "devDependencies": {
     "jest": "^26.1.0",

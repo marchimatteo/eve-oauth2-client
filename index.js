@@ -7,7 +7,7 @@ const jwt = require("jsonwebtoken");
 const JwksRsa = require("jwks-rsa");
 
 
-const LOGIN_URI = 'https://login.eveonline.com/v2/oauth/authorize';
+const LOGIN_URI = 'https://login.eveonline.com/v2/oauth/authorize/';
 const TOKEN_URI = 'https://login.eveonline.com/v2/oauth/token';
 const JWKS_URI = 'https://login.eveonline.com/oauth/jwks';
 const VALID_ISS = [
