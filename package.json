@@ -23,5 +23,9 @@
     "jwks-rsa": "^1.8.1",
     "url-parse": "^1.4.7",
     "url-safe-base64": "^1.1.1"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "jest-fetch-mock": "^3.0.3"
   }
 }
