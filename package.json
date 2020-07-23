@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/marchimatteo/eve-oauth2-client#readme",
   "dependencies": {
+    "cross-fetch": "^3.0.5",
     "crypto-js": "^4.0.0",
     "jsonwebtoken": "^8.5.1",
     "jwks-rsa": "^1.8.1",

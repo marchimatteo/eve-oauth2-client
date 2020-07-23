@@ -5,13 +5,6 @@ const sha256 = require("crypto-js/sha256");
 const Url = require("url-parse");
 const jwt = require("jsonwebtoken");
 const JwksRsa = require("jwks-rsa");
-//import WordArray from 'crypto-js/lib-typedarrays';
-//import Base64 from 'crypto-js/enc-base64';
-//import { encode, trim } from 'url-safe-base64';
-//import sha256 from 'crypto-js/sha256';
-//import Url from 'url-parse';
-//import jwt from 'jsonwebtoken';
-//import JwksRsa from 'jwks-rsa';
 
 
 const LOGIN_URI = 'https://login.eveonline.com/v2/oauth/authorize';
