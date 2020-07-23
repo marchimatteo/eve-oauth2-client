@@ -6,6 +6,20 @@
   "scripts": {
     "test": "jest test/"
   },
+  "keywords": [
+    "eve",
+    "online",
+    "eveonline",
+    "eve online",
+    "eve-online",
+    "esi",
+    "login",
+    "eve oauth2 client",
+    "oauth2",
+    "auth",
+    "sso",
+    "client"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marchimatteo/eve-oauth2-client.git"
